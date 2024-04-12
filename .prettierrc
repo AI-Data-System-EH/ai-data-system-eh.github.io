@@ -1,0 +1,57 @@
+{
+    "printWidth": 100,
+    "tabWidth": 4,
+    "endOfLine": "auto",
+    "trailingComma": "es5",
+    "semi": true,
+    "singleQuote": false,
+    "useTabs": false,
+    "singleAttributePerLine": false,
+
+    "plugins": [
+        "prettier-plugin-multiline-arrays",
+        "prettier-plugin-tailwindcss",
+        "prettier-plugin-organize-imports"
+    ],
+
+    "organizeImportsSkipDestructiveCodeActions": true,
+    "multilineArraysWrapThreshold": 0,
+
+    "overrides": [
+        {
+            "files": [
+                "*.yml",
+                "*.yaml"
+            ],
+            "options": {
+                "tabWidth": 2,
+                "parser": "yaml"
+            }
+        },
+        {
+            "files": "*.md",
+            "options": {
+                "printWidth": 200,
+                "tabWidth": 2
+            }
+        },
+        {
+            "files": [
+                ".prettierrc"
+            ],
+            "options": {
+                "parser": "jsonc",
+                "trailingComma": "none"
+            }
+        },
+        {
+            "files": [
+                "*.{js,ts,jsx,tsx}"
+            ],
+            "options": {
+                "parser": "typescript",
+                "tabWidth": 4
+            }
+        }
+    ]
+}

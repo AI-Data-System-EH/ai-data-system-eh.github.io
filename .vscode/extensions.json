@@ -1,0 +1,16 @@
+{
+    "recommendations": [
+        "bradlc.vscode-tailwindcss",
+        "kamikillerto.vscode-colorize",
+        "ecmel.vscode-html-css",
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode",
+        "janne252.fontawesome-autocomplete",
+        "bierner.github-markdown-preview",
+        "yzhang.markdown-all-in-one",
+        "christian-kohler.npm-intellisense",
+        "jock.svg",
+        "redhat.vscode-yaml",
+        "davidanson.vscode-markdownlint"
+    ]
+}
